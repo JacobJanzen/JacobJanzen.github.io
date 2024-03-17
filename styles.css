@@ -1,9 +1,13 @@
-body {
-  font-family: Courier;
-  width: 700px;
-  margin: auto;
+* {
+  box-sizing: border-box;
 }
 
-p {
-  font-family: Courier;
+body {
+  font-family:
+    Courier New,
+    Courier,
+    Monospace;
+  width: 700px;
+  max-width: calc(100% - 20px);
+  margin: auto;
 }
