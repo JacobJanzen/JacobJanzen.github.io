@@ -29,3 +29,21 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.header {
+  color: #fff8ea;
+  background-color: #594545;
+}
+
+.header a {
+  color: #fff8ea;
+  padding: 10px 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
