@@ -2,12 +2,30 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #815b5b;
+}
+
 body {
-  font-family:
-    Courier New,
-    Courier,
-    Monospace;
+  font-family: Georgia, Courier, Monospace;
+  font-size: 20px;
+  background-color: #fff8ea;
+  color: #594545;
   width: 700px;
   max-width: calc(100% - 20px);
   margin: auto;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
