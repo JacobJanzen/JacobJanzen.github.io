@@ -2,23 +2,29 @@
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #815b5b;
-}
-
 body {
-  font-family: Georgia, Courier, Monospace;
+  font-family: Georgia, Times;
   font-size: 20px;
   background-color: #fff8ea;
   color: #594545;
   width: 700px;
   max-width: calc(100% - 20px);
   margin: auto;
+}
+
+h1 {
+  color: #815b5b;
+  font-family: Helvetica, Tahoma, Arial;
+  font-weight: normal;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #815b5b;
+  font-weight: normal;
 }
 
 a {
@@ -33,6 +39,8 @@ a:hover {
 .header {
   color: #fff8ea;
   background-color: #594545;
+  margin-top: 10px;
+  padding: 5px 5px 5px 5px;
 }
 
 .header a {
